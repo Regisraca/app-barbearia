@@ -42,7 +42,10 @@
     },
     "extra": {
       "router": {},
-      "eas": {}
-    }
+      "eas": {
+        "projectId": "527c3c5e-8160-4990-a69b-3cb305bc783e"
+      }
+    },
+    "owner": "racax1"
   }
 }
