@@ -14,3 +14,4 @@ google-generativeai
 stripe
 qrcode
 PyJWT
+email-validator
