@@ -1,10 +1,19 @@
 {
+  "cli": {
+    "version": ">= 3.8.2"
+  },
   "build": {
     "preview": {
       "android": {
         "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_BACKEND_URL": "https://app-barbearia-6ekm.onrender.com"
       }
     },
+    "production": {}
+  },
+  "submit": {
     "production": {}
   }
 }
