@@ -13,3 +13,4 @@ openai
 google-generativeai
 stripe
 qrcode
+PyJWT
