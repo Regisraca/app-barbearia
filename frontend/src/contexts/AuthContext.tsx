@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 import { useRouter, useSegments } from 'expo-router';
 import { storage } from '@/src/utils/storage';
 
-const API_URL = process.env.EXPO_PUBLIC_BACKEND_URL + '/api';
+const API_URL = `${process.env.EXPO_PUBLIC_BACKEND_URL}/api`;
 
 interface User {
   id: string;
